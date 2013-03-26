@@ -18,5 +18,11 @@ $(function() {
     error : function(err) {
       $("#info").append('<p>Error accessing Couchbase Lite on <a href="'+cbLiteServerURL+'">'+cbLiteServerURL+'</a> -- maybe you need to whitelist this hostname (or "*") in your Resources/Cordava.plist ExternalHosts entry.</p>');
     }
- });
+  });
+  $("#login a").click(function(){
+    window.presentPersonaDialog("http://example.com/", function(err, assertion){
+      $("#login").append('<p>Your assertion is: '+assertion+'</p>');
+    });
+    return false;
+  })
 });
