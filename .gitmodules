@@ -1,0 +1,3 @@
+[submodule "examples/CouchChat-PhoneGap"]
+	path = examples/CouchChat-PhoneGap
+	url = https://github.com/couchbaselabs/CouchChat-PhoneGap.git
