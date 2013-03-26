@@ -5,7 +5,9 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
+		14AB8C3298074E2BA92B952C /* PersonaController.js in Resources */ = {isa = PBXBuildFile; fileRef = 6041B5BFE0BF43849CBA8285 /* PersonaController.js */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
@@ -39,7 +41,10 @@
 		30A0434814DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434314DC770100060A13 /* Localizable.strings */; };
 		30A0434914DC770100060A13 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30A0434614DC770100060A13 /* Localizable.strings */; };
 		30E5649213A7FCAF007403D8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E5649113A7FCAF007403D8 /* CoreMedia.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		4357DCDAF4224B8BAF92BC3F /* PersonaController+UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD842D8B6945A4A1CDE000 /* PersonaController+UIKit.m */; };
+		55A84DF163E04C6C8CD15901 /* PersonaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B277E8474D24ADAB977425D /* PersonaController.m */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
+		5EE030135F7F41D8B4DE7A0A /* CBCordovaPersona.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F87C6C8EDFD4B039DA55C6F /* CBCordovaPersona.m */; };
 		7985186B170126CF002F474C /* CBLJSFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 79851868170126CF002F474C /* CBLJSFunction.m */; };
 		7985186C170126CF002F474C /* CBLJSViewCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7985186A170126CF002F474C /* CBLJSViewCompiler.m */; };
 		7985187017012712002F474C /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7985186D17012712002F474C /* CouchbaseLite.framework */; };
@@ -52,10 +57,6 @@
 		79851886170127EF002F474C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79851885170127EF002F474C /* Security.framework */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		F840E1F1165FE0F500CFE078 /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = F840E1F0165FE0F500CFE078 /* config.xml */; };
-		5EE030135F7F41D8B4DE7A0A /* CBCordovaPersona.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F87C6C8EDFD4B039DA55C6F /* CBCordovaPersona.m */; };
-		55A84DF163E04C6C8CD15901 /* PersonaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B277E8474D24ADAB977425D /* PersonaController.m */; };
-		4357DCDAF4224B8BAF92BC3F /* PersonaController+UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD842D8B6945A4A1CDE000 /* PersonaController+UIKit.m */; };
-		14AB8C3298074E2BA92B952C /* PersonaController.js in Resources */ = {isa = PBXBuildFile; fileRef = 6041B5BFE0BF43849CBA8285 /* PersonaController.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09DD842D8B6945A4A1CDE000 /* PersonaController+UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PersonaController+UIKit.m"; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -114,7 +116,12 @@
 		30A0434714DC770100060A13 /* se */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = se; path = Localizable.strings; sourceTree = "<group>"; };
 		30E5649113A7FCAF007403D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		32CA4F630368D1EE00C91783 /* LiteGap-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LiteGap-Prefix.pch"; sourceTree = "<group>"; };
+		37A5C7CA5DDA457A9DADE556 /* CBCordovaPersona.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBCordovaPersona.h; sourceTree = "<group>"; };
+		41F86A2AC6724470B005C0C2 /* PersonaController+UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PersonaController+UIKit.h"; sourceTree = "<group>"; };
 		5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5B277E8474D24ADAB977425D /* PersonaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonaController.m; sourceTree = "<group>"; };
+		5F87C6C8EDFD4B039DA55C6F /* CBCordovaPersona.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBCordovaPersona.m; sourceTree = "<group>"; };
+		6041B5BFE0BF43849CBA8285 /* PersonaController.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = unknown; path = PersonaController.js; sourceTree = "<group>"; };
 		79851867170126CF002F474C /* CBLJSFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLJSFunction.h; sourceTree = "<group>"; };
 		79851868170126CF002F474C /* CBLJSFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBLJSFunction.m; sourceTree = "<group>"; };
 		79851869170126CF002F474C /* CBLJSViewCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBLJSViewCompiler.h; sourceTree = "<group>"; };
@@ -128,15 +135,9 @@
 		79851883170127E8002F474C /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		79851885170127EF002F474C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* LiteGap-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "LiteGap-Info.plist"; path = "../LiteGap-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		B6E216A0968443058114F17D /* PersonaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonaController.h; sourceTree = "<group>"; };
 		D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x~iphone.png"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = LiteGap/config.xml; sourceTree = "<group>"; };
-		5F87C6C8EDFD4B039DA55C6F /* CBCordovaPersona.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CBCordovaPersona.m"; path = "CBCordovaPersona.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		5B277E8474D24ADAB977425D /* PersonaController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PersonaController.m"; path = "PersonaController.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		09DD842D8B6945A4A1CDE000 /* PersonaController+UIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "PersonaController+UIKit.m"; path = "PersonaController+UIKit.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		37A5C7CA5DDA457A9DADE556 /* CBCordovaPersona.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CBCordovaPersona.h"; path = "CBCordovaPersona.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		B6E216A0968443058114F17D /* PersonaController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PersonaController.h"; path = "PersonaController.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		41F86A2AC6724470B005C0C2 /* PersonaController+UIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "PersonaController+UIKit.h"; path = "PersonaController+UIKit.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		6041B5BFE0BF43849CBA8285 /* PersonaController.js */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "PersonaController.js"; path = "PersonaController.js"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -460,7 +461,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "SRC_DIR=\"www\"\nDST_DIR=\"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/www\"\nCOPY_HIDDEN=\n\nif [[ ! -e \"$SRC_DIR\" ]]; then\n  echo \"Path does not exist: $SRC_DIR\"\n  exit 1\nfi\n\nif [[ -n $COPY_HIDDEN ]]; then\n  alias do_find='find \"$SRC_DIR\"'\nelse\n  alias do_find='find \"$SRC_DIR\" -name \".*\" -prune -o'\nfi\n\ntime (\n# Code signing files must be removed or else there are\n# resource signing errors.\nrm -rf \"$DST_DIR\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/_CodeSignature\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/PkgInfo\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/embedded.mobileprovision\"\n\n# Directories\nfor p in $(do_find -type d -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  mkdir \"$DST_DIR$subpath\" || exit 1\ndone\n\n# Symlinks\nfor p in $(do_find -type l -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  cp -a \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\" || exit 2\ndone\n\n# Files\nfor p in $(do_find -type f -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  if ! ln \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\"; then\n    cp -a \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\" || exit 3\n  fi\ndone\n\n)";
+			shellScript = "SRC_DIR=\"www/\"\nDST_DIR=\"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/www\"\nCOPY_HIDDEN=\n\nif [[ ! -e \"$SRC_DIR\" ]]; then\n  echo \"Path does not exist: $SRC_DIR\"\n  exit 1\nfi\n\nif [[ -n $COPY_HIDDEN ]]; then\n  alias do_find='find \"$SRC_DIR\"'\nelse\n  alias do_find='find \"$SRC_DIR\" -name \".*\" -prune -o'\nfi\n\ntime (\n# Code signing files must be removed or else there are\n# resource signing errors.\nrm -rf \"$DST_DIR\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/_CodeSignature\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/PkgInfo\" \\\n       \"$BUILT_PRODUCTS_DIR/$FULL_PRODUCT_NAME/embedded.mobileprovision\"\n\n# Directories\nfor p in $(do_find -type d -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  mkdir \"$DST_DIR$subpath\" || exit 1\ndone\n\n# Symlinks\nfor p in $(do_find -type l -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  cp -a \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\" || exit 2\ndone\n\n# Files\nfor p in $(do_find -type f -print); do\n  subpath=\"${p#$SRC_DIR}\"\n  if ! ln \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\"; then\n    cp -a \"$SRC_DIR$subpath\" \"$DST_DIR$subpath\" || exit 3\n  fi\ndone\n\n)";
 		};
 /* End PBXShellScriptBuildPhase section */
 

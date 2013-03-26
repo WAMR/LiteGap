@@ -37,7 +37,7 @@ NOTE: We are updating the examples to the latest Sync Gateway capabilities, so f
 
 If you want to see an up to date example app, look at [CouchChat](https://github.com/couchbaselabs/CouchChat-iOS). We are updating the HTML5 examples now, contact @jchris on Twitter to help...
 
-There is an example HTML5 version of the Chat app in it's own repository. To try it out you can bring the code in by pulling in submodules (this project only uses them for example code, so they are optional if you are writing your own app.)
+There is an example [HTML5 version of the Chat app in it's own repository](https://github.com/couchbaselabs/CouchChat-PhoneGap). To try it out you can bring the code in by pulling in submodules (this project only uses them for example code, so they are optional if you are writing your own app.)
 
 	git submodule init
 	git submodule update
