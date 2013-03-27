@@ -1,9 +1,11 @@
-LiteGap - PhoneGap and Couchbase Lite
+LiteGap - PhoneGap and Couchbase Lite for iOS
 ========
 
 Container for building HTML5 mobile apps with PhoneGap and Couchbase Lite, which can sync via [Couchbase Mobile](https://github.com/couchbaselabs/mobile)
 
 Step one is to build and install the CouchbaseLite.framework and CouchbaseLiteListener.framework into the Frameworks/ folder that is part of this project.
+
+(TouchDB for Android should be fairly easy to use with PhoneGap. If anyone creates a similar container for Android, send a pull request linking to it from here.)
 
 ## How to develop
 
