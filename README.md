@@ -52,7 +52,8 @@ Once you have done that, you need to symlink the code into place and setup an ad
 Follow the rest of these steps to enable sync between multiple devices and the cloud.
 
 * Install [Couchbase Server 2.0 or newer](http://www.couchbase.com/couchbase-server/overview)
-* Install the [Couchbase Sync Gateway](https://github.com/couchbaselabs/sync_gateway) somewhere your mobile devices will be able to access it. This can be on your workstation, if you are only testing on the simulator or with devices connected via local wi-fi. For deployments, this Sync Gateway (as well as the node.js server process) need to be reachable from the public internet.
+* Install the [Couchbase Sync Gateway](https://github.com/couchbaselabs/sync_gateway) somewhere your mobile devices will be able to access it. This can be on your workstation, if you are only testing on the simulator or with devices connected via local wi-fi. For deployments, this Sync Gateway need to be reachable from the public internet.
+* Follow the steps to [configure the Sync Gateway for the CouchChat-iOS app](https://github.com/couchbaselabs/CouchChat-iOS). The whole point of CouchChat-PhoneGap is to show how two different clients can interact on the same data set. So we have the config file you'll need in that repo.
 
 Once you have the components installed, launch them in this order:
 
