@@ -44,9 +44,9 @@
 		4357DCDAF4224B8BAF92BC3F /* PersonaController+UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DD842D8B6945A4A1CDE000 /* PersonaController+UIKit.m */; };
 		55A84DF163E04C6C8CD15901 /* PersonaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B277E8474D24ADAB977425D /* PersonaController.m */; };
 		5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */; };
-		5EE030135F7F41D8B4DE7A0A /* CBCordovaPersona.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F87C6C8EDFD4B039DA55C6F /* CBCordovaPersona.m */; };
-		7985186B170126CF002F474C /* CBLJSFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 79851868170126CF002F474C /* CBLJSFunction.m */; };
-		7985186C170126CF002F474C /* CBLJSViewCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7985186A170126CF002F474C /* CBLJSViewCompiler.m */; };
+		5EE030135F7F41D8B4DE7A0A /* CBCordovaPersona.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F87C6C8EDFD4B039DA55C6F /* CBCordovaPersona.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		7985186B170126CF002F474C /* CBLJSFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 79851868170126CF002F474C /* CBLJSFunction.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		7985186C170126CF002F474C /* CBLJSViewCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7985186A170126CF002F474C /* CBLJSViewCompiler.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		7985187017012712002F474C /* CouchbaseLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7985186D17012712002F474C /* CouchbaseLite.framework */; };
 		7985187117012712002F474C /* CouchbaseLiteListener.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7985186E17012712002F474C /* CouchbaseLiteListener.framework */; };
 		7985187217012712002F474C /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7985186F17012712002F474C /* JavaScriptCore.framework */; };
@@ -85,6 +85,7 @@
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1F766FDD13BBADB100FB74C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
 		1F766FE013BBADB100FB74C0 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Localizable.strings; sourceTree = "<group>"; };
+		279B323C171F1319004F06A7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
@@ -219,11 +220,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				79851885170127EF002F474C /* Security.framework */,
-				79851883170127E8002F474C /* libz.dylib */,
-				79851881170127DE002F474C /* libsqlite3.dylib */,
-				7985187F170127D5002F474C /* libicucore.dylib */,
-				7985187D170127CE002F474C /* libstdc++.dylib */,
+				279B323C171F1319004F06A7 /* README.md */,
 				F840E1F0165FE0F500CFE078 /* config.xml */,
 				301BF56E109A69640062928A /* www */,
 				301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */,
@@ -267,6 +264,11 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79851885170127EF002F474C /* Security.framework */,
+				79851883170127E8002F474C /* libz.dylib */,
+				79851881170127DE002F474C /* libsqlite3.dylib */,
+				7985187F170127D5002F474C /* libicucore.dylib */,
+				7985187D170127CE002F474C /* libstdc++.dylib */,
 				7985186D17012712002F474C /* CouchbaseLite.framework */,
 				7985186E17012712002F474C /* CouchbaseLiteListener.framework */,
 				7985186F17012712002F474C /* JavaScriptCore.framework */,
