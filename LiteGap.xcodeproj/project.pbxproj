@@ -477,8 +477,8 @@
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [[ ! -e \"${PROJECT_DIR}/examples/CouchChat-PhoneGap/bundle.js\" ]]; then\necho \"Example app submodule not installed, wont try to run ${PROJECT_DIR}/examples/CouchChat-PhoneGap/bundle.js\"\nexit 0\nfi\n\nif [[ ! -e \"/usr/local/bin/node\" ]]; then\necho \"Node.js not installed, can't bundle.\"\nexit 1\nfi\n\n/usr/local/bin/node ${PROJECT_DIR}/examples/CouchChat-PhoneGap/bundle.js";
+			shellPath = /bin/zsh;
+			shellScript = "source ~/.zshrc\nNODE=`which node`\nif [[ ! -e \"${PROJECT_DIR}/examples/sync-tests/bundle.js\" ]]; then\necho \"Example app submodule not installed, wont try to run ${PROJECT_DIR}/examples/sync-tests/bundle.js\"\nexit 0\nfi\n\nif [[ ! -e \"$NODE\" ]]; then\necho \"Node.js not installed, can't bundle.\"\nexit 1\nfi\n\n$NODE ${PROJECT_DIR}/examples/sync-tests/bundle.js";
 		};
 /* End PBXShellScriptBuildPhase section */
 
