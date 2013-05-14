@@ -1,3 +1,6 @@
 [submodule "examples/CouchChat-PhoneGap"]
 	path = examples/CouchChat-PhoneGap
 	url = https://github.com/couchbaselabs/CouchChat-PhoneGap.git
+[submodule "examples/sync-tests"]
+	path = examples/sync-tests
+	url = https://github.com/couchbaselabs/sync-tests.git
